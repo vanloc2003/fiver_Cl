@@ -1,0 +1,21 @@
+.card-email{
+    font-size: 20px;
+}
+.location-icon{
+    width: 14px;
+    
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    .information{
+        flex: 1 0 10rem;
+    }
+    .job-hired{
+        flex: 1 0 10rem;
+        .job-hired-image{
+            width: 30%;
+        }
+    }
+}
