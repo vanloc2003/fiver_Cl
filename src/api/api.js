@@ -12,6 +12,10 @@ export const loaiCVSevr = {
     https.get(`${BASE_URL}/cong-viec/lay-chi-tiet-loai-cong-viec/${id}`),
   getJobByCateId: (id) =>
     https.get(`${BASE_URL}/cong-viec/lay-cong-viec-theo-chi-tiet-loai/${id}`),
+  getJobDetailById: (id) =>
+    https.get(`${BASE_URL}/cong-viec/lay-cong-viec-chi-tiet/${id}`),
+  getCommentByJob: (id) =>
+    https.get(`${BASE_URL}/binh-luan/lay-binh-luan-theo-cong-viec/${id}`),
 };
 
 export const congViecServ = {
