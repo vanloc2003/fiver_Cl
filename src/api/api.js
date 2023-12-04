@@ -18,7 +18,6 @@ export const congViecServ = {
   getMenuLoaiCV: () =>
     https.get(`${BASE_URL}/cong-viec/lay-menu-loai-cong-viec`),
 };
-
 //profile
 export const profileUser = {
   getInfo: () =>

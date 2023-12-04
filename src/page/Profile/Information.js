@@ -33,7 +33,11 @@ export default function Information() {
         <Space direction="vertical" size={16}>
           <Card>
             <Flex gap="middle" align="center" vertical>
-              <Avatar src={info.avatar} size={100} icon={<AntDesignOutlined />}></Avatar>
+              <Avatar
+                src={info.avatar}
+                size={100}
+                icon={<AntDesignOutlined />}
+              ></Avatar>
               <p className="card-email font-bold">{info.name}</p>
               <EditOutlined />
               <Divider />
